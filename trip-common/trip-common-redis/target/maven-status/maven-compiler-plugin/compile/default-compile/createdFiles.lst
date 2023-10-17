@@ -1,0 +1,4 @@
+com\trip\redis\key\KeyPrefix.class
+com\trip\redis\key\BaseKeyPrefix.class
+com\trip\redis\config\TripRedisAutoConfiguration.class
+com\trip\redis\utils\RedisCache.class
