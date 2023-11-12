@@ -11,6 +11,7 @@
     <modules>
         <module>trip-common-core</module>
         <module>trip-common-redis</module>
+        <module>trip-common-auth</module>
     </modules>
 
     <description>公共父模块, 用于管理公共子模块</description>

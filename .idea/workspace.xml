@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5763d7b1-959b-4bc8-b7c0-61689fc97469" name="Changes" comment="" />
+    <list default="true" id="5763d7b1-959b-4bc8-b7c0-61689fc97469" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/anno/RequireLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/config/TripCommonJwtAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/util/AuthenticationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/java/com/trip/auth/util/SpringContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-common/trip-common-auth/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/StrategyCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/StrategyContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/StrategyRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/domain/StrategyTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/qo/DestinationQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-article-api/src/main/java/com/trip/article/qo/StrategyQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules-api/trip-users-api/src/main/java/com/trip/user/key/UserRedisKeyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/ArticleServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/advice/ControllerExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/controller/DestinationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/controller/RegionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/mapper/DestinationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/mapper/RegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/DestinationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/impl/DestinationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-article-server/src/main/resources/com.trip.article.server.mapper/DestinationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/advice/ControllerExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/config/AliyunConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-common/trip-common-redis/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/trip-common/trip-common-redis/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules-api/trip-users-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules-api/trip-users-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/trip-users-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/java/com/trip/user/server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-modules/trip-users-server/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +104,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/BaiduNetdiskDownload/trip-cloud/trip-modules/trip-users-server/src/main/resources",
+    "last_opened_file_path": "D:/BaiduNetdiskDownload/trip-cloud/trip-modules/trip-article-server/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,24 +115,28 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "spring.boot",
+    "spring.configuration.checksum": "276f58fab55b24473821f2dbf045c6ee",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules\trip-users-server\src\main\resources" />
-      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-gateway\src\main\resources" />
-      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules\trip-users-server\src\main\java\com\trip\use\server" />
-      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules-api\trip-users-api\src\main\java\com\trip\user\vo" />
-      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-common\trip-common-redis\src\main" />
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules\trip-article-server\src\main\resources" />
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules-api\trip-article-api\src\main\java\com\trip\article" />
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules\trip-article-server\src\main\java\com\trip\article\server" />
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules\trip-article-server\src\main\java\com\trip\article\server\mapper" />
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-common\trip-common-auth\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\trip-cloud\trip-modules-api\trip-users-api\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.trip.use.server.controller" />
-      <recent name="com.trip.user.dto" />
-      <recent name="com.trip.user.domain" />
-      <recent name="com.trip.redis.config" />
-      <recent name="com.trip.redis.utils" />
+      <recent name="com.trip.article.server" />
+      <recent name="com.trip.user.server.advice" />
+      <recent name="com.trip.user.server.service.impl" />
+      <recent name="com.trip.user.server.service" />
+      <recent name="com.trip.user.server.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,11 +364,51 @@
       <option name="presentableId" value="Default" />
       <updated>1697382524216</updated>
       <workItem from="1697382525248" duration="3742000" />
-      <workItem from="1697464128590" duration="11486000" />
+      <workItem from="1697464128590" duration="13918000" />
+      <workItem from="1699154799578" duration="38244000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/impl/DestinationServiceImpl.java</url>
+          <line>56</line>
+          <properties class="com.trip.article.server.service.impl.DestinationServiceImpl" method="findToasts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/trip-modules/trip-article-server/src/main/java/com/trip/article/server/service/impl/DestinationServiceImpl.java</url>
+          <line>28</line>
+          <properties class="com.trip.article.server.service.impl.DestinationServiceImpl" method="getDestinationByRegionId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

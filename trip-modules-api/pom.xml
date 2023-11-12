@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>trip-users-api</module>
+        <module>trip-article-api</module>
     </modules>
 
     <dependencies>
